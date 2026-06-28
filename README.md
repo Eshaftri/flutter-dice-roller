@@ -1,6 +1,6 @@
 # Dice Roller
 
-A Flutter learning project built while following the "Flutter — The Complete Guide" course. Tapping the button rolls a random dice and displays the result.
+A Flutter learning project. Tapping the button rolls a random dice and displays the result.
 
 ## Features
 
