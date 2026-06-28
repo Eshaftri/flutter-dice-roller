@@ -1,16 +1,33 @@
-# first_app
+# Dice Roller
 
-A new Flutter project.
+A Flutter learning project built while following the "Flutter — The Complete Guide" course. Tapping the button rolls a random dice and displays the result.
+
+## Features
+
+- Random dice roll (1–6) on button tap
+- Gradient background
+- Feature-first folder structure
+
+## Project Structure
+
+```
+lib/
+  main.dart
+  features/
+    home/
+      screens/        # HomeScreen
+      widgets/        # DiceRoller (stateful, owns dice logic)
+  shared/
+    widgets/          # GradientContainer, StyledText (reusable)
+assets/
+  images/             # dice-1.png … dice-6.png
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Requires Flutter SDK. See the [Flutter installation guide](https://docs.flutter.dev/get-started/install) if needed.
